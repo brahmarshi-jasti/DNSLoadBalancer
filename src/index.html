@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.5">
+  <style type="text/css">
+    body {background-color: #ececec}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Arial; color: #535353; -webkit-text-stroke: #535353}
+    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Arial; color: #535353; -webkit-text-stroke: #535353; min-height: 14.0px}
+    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; color: #535353; -webkit-text-stroke: #535353}
+    li.li7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; color: #535353}
+    span.s1 {font-kerning: none; background-color: #262626}
+    span.s2 {font-kerning: none; background-color: #ffffff}
+    span.s3 {font-kerning: none}
+    span.s4 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    ol.ol1 {list-style-type: decimal}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; font: 24.0px Arial; color: #f2f2f2; -webkit-text-stroke: #f2f2f2"><span class="s1"><b>DNS LOAD BALANCING</b></span></h1>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; -webkit-text-stroke: #000000"><span class="s2"><b>What is DNS?</b></span></h2>
+<p class="p3"><span class="s2">The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.</span></p>
+<h6 style="margin: 0.0px 0.0px 21.0px 0.0px; font: 9.0px Arial; -webkit-text-stroke: #000000"><span class="s2"><b>Credits - CloudFlare</b></span></h6>
+<p class="p5"><span class="s3"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; -webkit-text-stroke: #000000"><span class="s2"><b>Server Location: US East (N. Virginia) us-east-1</b></span></h2>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; -webkit-text-stroke: #000000"><span class="s2"><b>About Project</b></span></h2>
+<p class="p3"><span class="s2">In this project we need to implement a load balancing system that should divide the upcoming requests amoing multiple servers(3 in our case)according to the algorithm.</span></p>
+<ol class="ol1">
+  <li class="li6"><span class="s4"></span><span class="s2">Round Robin algorithm: Each time a client wants to resolve the domain name, the DNS server chooses the server based on the round-robin approach.</span></li>
+  <li class="li7"></li>
+  <li class="li6"><span class="s4"></span><span class="s2">Geological approximation: each client connects to the web server deployed within that region. If there is no web server in that region,the DNS server randomly chooses a server to resolve the domain name.</span></li>
+  <li class="li7"></li>
+  <li class="li6"><span class="s4"></span><span class="s2">Load-based: each web server tells the DNS server how many clients it can handle. The DNS server chooses the servers based on the round-robin approach to resolve the domain name, however, this time DNS server uses the same IP address for clients until the number of requests for that server reaches a threshold. Then the DNS server returns the next IP address in the list.</span></li>
+</ol>
+<p class="p5"><span class="s3"></span><br></p>
+</body>
+</html>

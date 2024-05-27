@@ -1,0 +1,29 @@
+2023-11-28 04:08:14,806 - INFO - For the last 101 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 57
+For web server 3.10.129.24, the number of requests allocated by DNS is 43
+For web server 13.234.121.86, the number of requests allocated by DNS is 1
+
+2023-11-28 04:08:32,825 - INFO - For the last 101 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 20
+For web server 3.10.129.24, the number of requests allocated by DNS is 81
+For web server 13.234.121.86, the number of requests allocated by DNS is 0
+
+2023-11-28 04:09:02,856 - INFO - For the last 103 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 39
+For web server 3.10.129.24, the number of requests allocated by DNS is 64
+For web server 13.234.121.86, the number of requests allocated by DNS is 0
+
+2023-11-28 04:09:18,874 - INFO - For the last 115 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 98
+For web server 3.10.129.24, the number of requests allocated by DNS is 14
+For web server 13.234.121.86, the number of requests allocated by DNS is 3
+
+2023-11-28 04:09:31,888 - INFO - For the last 101 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 62
+For web server 3.10.129.24, the number of requests allocated by DNS is 39
+For web server 13.234.121.86, the number of requests allocated by DNS is 0
+
+2023-11-28 04:10:13,935 - INFO - For the last 100 requests
+,For web server 52.45.48.182, the number of requests allocated by DNS is 65
+For web server 3.10.129.24, the number of requests allocated by DNS is 35
+For web server 13.234.121.86, the number of requests allocated by DNS is 0
